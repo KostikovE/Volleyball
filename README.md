@@ -50,6 +50,7 @@ Celery (worker) ──▶ YOLO + трекер
 
 ## Структура проекта
 ---
+'''
 Volleyball/
 ├── app/                  # код приложения
 │   ├── database.py       # подключение к базе данных
@@ -67,4 +68,4 @@ Volleyball/
 │   └── er_diagram.png    # ER-диаграмма
 ├── requirements.txt      # зависимости
 └── README.md             # этот файл
-
+'''
