@@ -1,0 +1,28 @@
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Python кэш
+__pycache__/
+*.py[cod]
+
+# База данных
+*.db
+*.sqlite
+*.sqlite3
+
+# Видео и артефакты 
+data/uploads/
+data/artifacts/
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Настройки IDE
+.vscode/
+.idea/
+
+# Секреты
+.env
