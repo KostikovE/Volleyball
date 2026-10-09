@@ -19,27 +19,10 @@
 
 ---
 
-## Архитектура
-Пользователь
-│
-▼
-React (браузер) ──▶ FastAPI (backend) ──▶ SQLite (база данных)
-│
-▼
-Redis (очередь)
-│
-▼
-Celery (worker) ──▶ YOLO + трекер
-│
-▼
-Файлы (видео и результаты)
-
 ## 🛠️ Технологии
 
 | Слой | Технология |
 |---|---|
-| Frontend | React |
-| Backend | FastAPI |
 | ORM | SQLAlchemy |
 | Миграции | Alembic |
 | База данных | SQLite |
