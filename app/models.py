@@ -15,13 +15,13 @@ class VideoStatus(str, enum.Enum):
     error = "error"            
 
 class ServeSide(str, enum.Enum):
-    unknown = "unknown"  # подачи (неизвестно, дальний или ближний)
+    unknown = "unknown"  
     near = "near"        
     far = "far"          
 
 
 
-# Таблица users — пользователи системы
+#  пользователи системы
 
 class User(Base):
     __tablename__ = "users"
@@ -58,7 +58,7 @@ class Video(Base):
 
 
 
-# Таблица processing_jobs 
+# processing_jobs 
 
 class ProcessingJob(Base):
     __tablename__ = "processing_jobs"
@@ -75,7 +75,7 @@ class ProcessingJob(Base):
 
 
 
-# Таблица rallies 
+#  rallies 
 
 class Rally(Base):
     __tablename__ = "rallies"

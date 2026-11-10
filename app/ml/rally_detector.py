@@ -2,8 +2,8 @@ import csv
 import json
 
 def extract_rallies(csv_path, output_json_path, fps=30):
-    MIN_RALLY_DURATION = 2.0      # Минимальная длительность розыгрыша (сек)
-    MERGE_GAP_SECONDS = 8.0       # Максимальный пропуск детекции мяча (сек)
+    MIN_RALLY_DURATION = 1.0     # Минимальная длительность розыгрыша (сек)
+    MERGE_GAP_SECONDS = 4.0       # Максимальный пропуск детекции мяча (сек)
     
     frames_data = []
     
