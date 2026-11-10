@@ -26,3 +26,13 @@ data/artifacts/
 
 # Секреты
 .env
+
+
+
+# тяжелые файлы нейросети 
+fast-volleyball-tracking-inference/
+data/artifacts/
+data/uploads/
+*.onnx
+*.mp4
+*.csv
